@@ -1,19 +1,27 @@
 {
   "metadata": {
-    "name": "ms-ico",
-    "lastOpened": 1456318800308,
+    "name": "MS3000-IconFont",
+    "lastOpened": 1456337055389,
     "created": 1456318741124
   },
   "iconSets": [
     {
       "selection": [
         {
+          "order": 20,
+          "id": 19,
+          "prevSize": 32,
+          "name": "ok",
+          "code": 59652,
+          "tempChar": "î¤€"
+        },
+        {
           "order": 14,
           "id": 18,
           "prevSize": 32,
           "code": 59648,
           "name": "brightness",
-          "tempChar": ""
+          "tempChar": "î¤"
         },
         {
           "order": 13,
@@ -21,7 +29,7 @@
           "prevSize": 32,
           "code": 59649,
           "name": "brushes",
-          "tempChar": ""
+          "tempChar": "î¤‚"
         },
         {
           "order": 12,
@@ -29,7 +37,7 @@
           "prevSize": 32,
           "code": 59650,
           "name": "close",
-          "tempChar": ""
+          "tempChar": "î¤ƒ"
         },
         {
           "order": 11,
@@ -37,7 +45,7 @@
           "prevSize": 32,
           "code": 59651,
           "name": "colors",
-          "tempChar": ""
+          "tempChar": "î¤„"
         },
         {
           "order": 10,
@@ -45,7 +53,7 @@
           "prevSize": 32,
           "code": 59653,
           "name": "download",
-          "tempChar": ""
+          "tempChar": "î¤…"
         },
         {
           "order": 9,
@@ -53,7 +61,7 @@
           "prevSize": 32,
           "code": 59654,
           "name": "effects",
-          "tempChar": ""
+          "tempChar": "î¤†"
         },
         {
           "order": 8,
@@ -61,7 +69,7 @@
           "prevSize": 32,
           "code": 59655,
           "name": "fonts",
-          "tempChar": ""
+          "tempChar": "î¤‡"
         },
         {
           "order": 7,
@@ -69,7 +77,7 @@
           "prevSize": 32,
           "code": 59656,
           "name": "images",
-          "tempChar": ""
+          "tempChar": "î¤ˆ"
         },
         {
           "order": 15,
@@ -77,7 +85,7 @@
           "prevSize": 32,
           "code": 59657,
           "name": "info",
-          "tempChar": ""
+          "tempChar": "î¤‰"
         },
         {
           "order": 16,
@@ -91,9 +99,9 @@
           ],
           "name": "invert",
           "tempChar": [
-            "",
-            "",
-            ""
+            "î¤Š",
+            "î¤‹",
+            "î¤Œ"
           ]
         },
         {
@@ -102,7 +110,7 @@
           "prevSize": 32,
           "name": "loading",
           "code": 59667,
-          "tempChar": ""
+          "tempChar": "î¤"
         },
         {
           "order": 2,
@@ -110,7 +118,7 @@
           "prevSize": 32,
           "code": 59661,
           "name": "minus",
-          "tempChar": ""
+          "tempChar": "î¤Ž"
         },
         {
           "order": 3,
@@ -118,7 +126,7 @@
           "prevSize": 32,
           "code": 59662,
           "name": "plus",
-          "tempChar": ""
+          "tempChar": "î¤"
         },
         {
           "order": 4,
@@ -126,7 +134,7 @@
           "prevSize": 32,
           "code": 59663,
           "name": "settings",
-          "tempChar": ""
+          "tempChar": "î¤"
         },
         {
           "order": 5,
@@ -134,7 +142,7 @@
           "prevSize": 32,
           "code": 59664,
           "name": "shapes",
-          "tempChar": ""
+          "tempChar": "î¤‘"
         },
         {
           "order": 6,
@@ -142,7 +150,7 @@
           "prevSize": 32,
           "code": 59665,
           "name": "trash",
-          "tempChar": ""
+          "tempChar": "î¤’"
         },
         {
           "order": 17,
@@ -150,7 +158,7 @@
           "prevSize": 32,
           "code": 59666,
           "name": "upload",
-          "tempChar": ""
+          "tempChar": "î¤“"
         },
         {
           "order": 0,
@@ -165,8 +173,8 @@
       "metadata": {
         "name": "MagicShifter3000 Icons",
         "importSize": {
-          "width": 500,
-          "height": 500
+          "width": 512,
+          "height": 512
         },
         "designer": "",
         "designerURL": ""
@@ -174,6 +182,21 @@
       "height": 1024,
       "prevSize": 32,
       "icons": [
+        {
+          "id": 19,
+          "paths": [
+            "M864 128l-480 480-224-224-160 160 384 384 640-640z"
+          ],
+          "attrs": [],
+          "isMulticolor": false,
+          "grid": 40,
+          "tags": [
+            "ok"
+          ],
+          "colorPermutations": {
+            "25525525515151511": []
+          }
+        },
         {
           "id": 18,
           "paths": [
@@ -11461,7 +11484,7 @@
       ],
       "colorThemes": [],
       "colorThemeIdx": 0,
-      "invisible": true
+      "invisible": false
     }
   ],
   "preferences": {
@@ -11472,7 +11495,7 @@
     "fontPref": {
       "prefix": "",
       "metadata": {
-        "fontFamily": "MS3000",
+        "fontFamily": "ms-ico",
         "majorVersion": 1,
         "minorVersion": 0
       },
@@ -11502,7 +11525,7 @@
     "historySize": 100,
     "showCodes": true,
     "gridSize": 16,
-    "showGrid": true
+    "showGrid": false
   },
   "uid": -1
 }
